@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--font-google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!--css/js-->
+    <link rel="stylesheet" href="./style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <!--navigation-->
+        <nav>
+            <img class="logo" src="./img/LOGO.png" alt="">
+            <div class="dropdown">
+                <a class="nav--item" data-bs-toggle="dropdown" href="">SẢN PHẨM</a>
+                <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item">Chuột</a></li>
+                    <li><a href="" class="dropdown-item">Bàn phím</a></li>
+                    <li><a href="" class="dropdown-item">Tai nghe</a></li>
+                </ul>
+            </div>
+            <a class="nav--item" href="">TRẢ GÓP</a>
+            <a class="nav--item" href="">VẬN CHUYỂN</a>
+            <a class="nav--item" href="">BẢO HÀNH</a>
+            <div class="search-container">
+                <form action="abc.php">
+                    <input type="text" placeholder="Tìm kiếm.." name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </nav>
+        
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/header.jpg" alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/header-1.jpg" alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/header-2.jpg" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/header-3.jpg" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="sanpham">
+            <div class="sanpham-heading">
+                <h1>CHUỘT</h1>
+                <a href="#">Xem tất cả ></a>
+            </div>
+            <div class="list">
+                <div class="list--item">
+                    <img src="./img/chuot.webp" alt="">
+                    <a href="">Chuột Razer DeathAdder V2 Pro  </a>
+                    <h1>2.790.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/chuot-1.webp" alt="">
+                    <a href="">Chuột Logitech G502 Hero </a>
+                    <h1>2.990.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/chuot-2.jpg" alt="">
+                    <a href="">Chuột Logitech G102 Gen2 Black  </a>
+                    <h1>440.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/chuot-3.png" alt="">
+                    <a href="">Chuột Logitech G502 Hero KDA  </a>
+                    <h1>1.799.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/chuot-4.webp" alt="">
+                    <a href="">Chuột Logitech G502 Hero High Performance RGB </a>
+                    <h1>2.990.000đ</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="sanpham">
+            <div class="sanpham-heading">
+                <h1>BÀN PHÍM</h1>
+                <a href="#">Xem tất cả ></a>
+            </div>
+            <div class="list">
+                <div class="list--item">
+                    <img src="./img/banphim.webp" alt="">
+                    <a href="">Razer BlackWidow Green Switch  </a>
+                    <h1>2.890.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/bamphim-1.webp" alt="">
+                    <a href="">Razer Huntsman Mini Mercury </a>
+                    <h1>3.090.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/banphim-2.webp" alt="">
+                    <a href="">DareU EK87 Pink White </a>
+                    <h1>550.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/banphim-3.webp" alt="">
+                    <a href=""> Mistel X8 Bumblebee</a>
+                    <h1>2.650.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/banphim-4.webp" alt="">
+                    <a href="">Logitech G213</a>
+                    <h1>990.000đ</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="sanpham">
+            <div class="sanpham-heading">
+                <h1>TAI NGHE</h1>
+                <a href="#">Xem tất cả ></a>
+            </div>
+            <div class="list">
+                <div class="list--item">
+                    <img src="./img/tainghe.webp" alt="">
+                    <a href="">DareU EH722X</a>
+                    <h1>590.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/tainghe-1.webp" alt="">
+                    <a href="">Rapoo VH710 Virtual 7.1  </a>
+                    <h1>790.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/tainghe-2.webp" alt="">
+                    <a href="">Durgod V3 </a>
+                    <h1>790.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/tainghe-3.webp" alt="">
+                    <a href="">DareU EH925S Pink RGB </a>
+                    <h1>890.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/tainghe-4.webp" alt="">
+                    <a href="">Zidli ZH20 7.1 RGB</a>
+                    <h1>590.000đ</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="sanpham">
+            <div class="sanpham-heading">
+                <h1>LOA</h1>
+                <a href="#">Xem tất cả ></a>
+            </div>
+            <div class="list">
+                <div class="list--item">
+                    <img src="./img/loa.webp" alt="">
+                    <a href="">Loa JBL Charge 5 Black  </a>
+                    <h1>3.900.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/loa-1.webp" alt="">
+                    <a href="">Loa Harman Kardon Onyx Studio 7 Black  </a>
+                    <h1>5.990.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/loa-2.webp" alt="">
+                    <a href="">Loa JBLHorizon 2   </a>
+                    <h1>2.690.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/loa-3.webp" alt="">
+                    <a href="">Loa Active Mitchell Acoustics - uStream One  </a>
+                    <h1>17.970.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/loa-4.webp" alt="">
+                    <a href="">Loa Logitech Z407 2.1 </a>
+                    <h1>1.790.000đ</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="sanpham">
+            <div class="sanpham-heading">
+                <h1>CARD</h1>
+                <a href="#">Xem tất cả ></a>
+            </div>
+            <div class="list">
+                <div class="list--item">
+                    <img src="./img/card.webp" alt="">
+                    <a href="">MANLI GeForce GTX 1050 Ti 4GB GDDR5 </a>
+                    <h1>5.590.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/card-1.webp" alt="">
+                    <a href="">PALIT GeForce 1050 Ti StormX 4GB  </a>
+                    <h1>5.790.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/card-2.webp" alt="">
+                    <a href="">GIGABYTE GeForce GTX 1650 OC 4G  </a>
+                    <h1>6.990.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/card-3.webp" alt="">
+                    <a href="">ASUS GeForce GTX 1650 4GB DUAL</a>
+                    <h1>7.090.000đ</h1>
+                </div>
+                <div class="list--item">
+                    <img src="./img/card-4.webp" alt="">
+                    <a href="">ASUS Dual Radeon RX 6500 XT OC Edition</a>
+                    <h1>6.990.000đ</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-1">
+            <h1>Win<span>X</span></h1>
+            <p>WinX là doanh nghiệp chuyên cung cấp thiết bị, giải pháp về máy tính, thiết bị chơi game, thiết bị công nghệ cao cấp hàng đầu Việt Nam.</p>
+            <p>Hãy kết nối với chúng tôi</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="footer-2">
+            <h4>HỆ THỐNG CỬA HÀNG</h4>
+            <ul>
+                <li>452 An Dương Vương , P.12 , Q.5 , TP.HCM</li>
+                <li>283 Lê Văn Sỹ , P.10 , Q.3 , TP.HCM</li>
+                <li>696 Lạc Long Quân , P.2 , Q.11 , TP.HCM</li>
+            </ul>
+        </div>
+        <div class="footer-3">
+            <h4>HỆ THỐNG TỔNG ĐÀI</h4>
+            <ul>
+                <li>Gọi mua hàng : 1900 9999</li>
+                <li>Gọi mua hàng : 1900 7572</li>
+                <li>Gọi mua hàng : 1900 3321</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

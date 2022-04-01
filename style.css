@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Oswald', sans-serif;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav .logo{
+    width:8%;
+}
+header nav .dropdown .dropdown-menu .dropdown-item {
+    padding:10px;
+}
+header nav .nav--item{
+    text-decoration: none;
+    font-weight: 700;
+    color:black;
+    background-image: linear-gradient(rgb(177,49,49), rgb(177,49,49));
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding:10px 0;
+    transition: all .2s ease-out;
+}
+header nav .nav--item:hover{
+    color:rgb(177, 49, 49);
+    padding:10px 0;
+    background-size: 100% 5px, auto;
+}
+header nav .search-container input{
+    border: none;
+    padding:10px;
+}
+header nav .search-container button{
+    color:white;
+    background-color: rgb(177, 49, 49);
+    padding:10px;
+    border: none;
+    border-radius: 5px ;
+}
+header .img--header{
+    width:100%;
+}
+
+main{
+    margin:0 100px;
+    bottom:6px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+main .sanpham{
+    padding: 50px;
+}
+main .sanpham-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(219, 11, 11);
+    color:white;
+    padding:5px 15px;
+    z-index: 2;
+
+}
+main .sanpham-heading a{
+    text-decoration: none;
+    color: white;
+}
+
+main .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .list--item{
+    display: flex;
+    flex-direction: column;
+}
+main .list--item img{
+    width: 250px;
+}
+main .list--item img:hover{
+    position: relative;
+    top: 10px;
+}
+main .list--item a{
+    max-width: 200px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    height: 60px;
+}
+main .list--item a:hover{
+    color:rgb(219, 11, 11);
+}
+main .list--item h1{
+    color:rgb(219, 11, 11);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding:70px;
+}
+footer .footer-1{
+    max-width: 30%;
+}
+footer .footer-2{
+    max-width: 30%;
+}
+footer .footer-2 h4{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+footer .footer-2 ul{
+    margin-top: 20px;
+}
+footer .footer-3{
+    max-width: 20%;
+}
+footer .footer-3 h4{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+footer .footer-3 ul{
+    margin-top: 20px;
+}
